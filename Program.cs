@@ -9,10 +9,13 @@ namespace TestConsoleApp
     {
         static void Main(string[] args)
         {
-            if(OtherClass.GoForIt())
+            if (OtherClass.GoForIt())
+            {
                 Console.WriteLine("hello world");
-            
-            Console.ReadKey(true);
+                Console.ReadKey(true);
+            }
+
+            Console.WriteLine("after hello world");
         }
     }
 }
