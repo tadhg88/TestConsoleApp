@@ -24,6 +24,7 @@ namespace TestConsoleApp
                 Console.ReadKey(true);
 
                 Console.WriteLine("after exit");
+                Console.ReadKey(true);
             }
         }
     }
