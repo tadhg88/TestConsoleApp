@@ -15,7 +15,7 @@ namespace TestConsoleApp
                 Console.ReadKey(true);
             }
 
-            if (AnotherClass.HmmmmmmRandomMethod())
+            if (MasterClass.GoForIt())
             {
                 Console.WriteLine("hello world");
                 Console.ReadKey(true);
