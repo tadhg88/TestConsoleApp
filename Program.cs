@@ -11,14 +11,16 @@ namespace TestConsoleApp
         {
             if (OtherClass.GoForIt())
             {
-                Console.WriteLine("hello world");
+                Console.WriteLine("before hello world");
                 Console.ReadKey(true);
             }
 
             if (AnotherClass.HmmmmmmRandomMethod())
             {
-                Console.WriteLine("after hello world");
+                Console.WriteLine("hello world");
                 Console.ReadKey(true);
+
+                Console.WriteLine("after hello world");
             }
 
             Console.WriteLine("before exit");
