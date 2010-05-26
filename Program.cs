@@ -26,6 +26,8 @@ namespace TestConsoleApp
 
             Console.WriteLine("before exit");
             Console.ReadKey(true);
+
+            System.Threading.Thread.Sleep(1000);
         }
     }
 }
