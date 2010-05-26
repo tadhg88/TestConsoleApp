@@ -16,6 +16,7 @@ namespace TestConsoleApp
             }
 
             Console.WriteLine("after hello world");
+            Console.ReadKey(true);
         }
     }
 }

@@ -10,6 +10,7 @@ namespace TestConsoleApp
         public static bool GoForIt()
         {
             return true;
+            Console.ReadKey(true);
         }
     }
 }
