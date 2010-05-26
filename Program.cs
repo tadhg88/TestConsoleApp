@@ -18,8 +18,11 @@ namespace TestConsoleApp
             Console.WriteLine("after hello world");
             Console.ReadKey(true);
 
-            Console.WriteLine("before exit");
-            Console.ReadKey(true);
+            if (MasterClass.GoForIt())
+            {
+                Console.WriteLine("before exit");
+                Console.ReadKey(true);
+            }
         }
     }
 }
