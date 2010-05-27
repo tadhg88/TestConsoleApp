@@ -24,7 +24,7 @@ namespace TestConsoleApp
                 Console.ReadKey(true);
             }
 
-            Console.WriteLine("before exit");
+            Console.WriteLine("1st before exit");
             Console.ReadKey(true);
 
             if (MasterClass.GoForIt())
