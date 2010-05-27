@@ -32,7 +32,7 @@ namespace TestConsoleApp
                 Console.WriteLine("before exit");
                 Console.ReadKey(true);
 
-                Console.WriteLine("after exit");
+                Console.WriteLine("last before exit");
                 Console.ReadKey(true);
             }
         }
