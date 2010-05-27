@@ -34,6 +34,8 @@ namespace TestConsoleApp
 
                 Console.WriteLine("last before exit");
                 Console.ReadKey(true);
+
+                Console.WriteLine("exit");
             }
         }
     }
