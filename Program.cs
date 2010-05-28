@@ -40,6 +40,8 @@ namespace TestConsoleApp
             
 			Console.WriteLine("change message from timtest");
             Console.ReadKey(true);
+
+            ThreadTimer.WaitForTimer();
         }
     }
 }
