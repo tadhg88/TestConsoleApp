@@ -7,9 +7,9 @@ namespace TestConsoleApp
 {
     public class ThreadTimer
     {
-        public static void WaitForTimer()
+        public static void WaitForTimer(int waitMilliSeconds)
         {
-            System.Threading.Thread.Sleep(2000);
+            System.Threading.Thread.Sleep(waitMilliSeconds);
         }
     }
 }
