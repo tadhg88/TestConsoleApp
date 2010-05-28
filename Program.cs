@@ -38,7 +38,8 @@ namespace TestConsoleApp
                 Console.WriteLine("exit");
             }
             
-	    Console.WriteLine("change message from timtest");
+			Console.WriteLine("change message from timtest");
+            Console.ReadKey(true);
         }
     }
 }
