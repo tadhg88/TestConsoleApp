@@ -37,6 +37,8 @@ namespace TestConsoleApp
 
                 Console.WriteLine("exit");
             }
+            
+	    Console.WriteLine("change message from timtest");
         }
     }
 }
