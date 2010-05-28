@@ -12,5 +12,11 @@ namespace TestConsoleApp
             return true;
             Console.ReadKey(true);
         }
+		
+        public static bool HmmmmmmRandomMethodTimTest()
+        {
+            return true;
+            Console.ReadKey(true);
+        }
     }
 }
